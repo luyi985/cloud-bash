@@ -23,11 +23,11 @@ function load() {
 function init() {
     if [ -f ${variablesFile} ]; then
         echo "load ${variablesFile}"
-        echo "source ${variablesFile}" >> $remoreBashRcPath
+        echo "source ${variablesFile}" >> $bashRcPath
     fi
 
     if [ -f ${utilsFile} ]; then
         echo "load ${utilsFile}"
-        echo "source ${utilsFile}" >> $remoreBashRcPath
+        echo "source ${utilsFile}" >> $bashRcPath
     fi
 } 
