@@ -1,5 +1,4 @@
 export bashRcPath="~/.bashrc"
 export remoteIP=""
 export remoteUser="root"
-export remotePath="~/Downloads"
-export loacalPath="~/Downloads"
+export remotePath="~/data"
